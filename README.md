@@ -1,1 +1,6 @@
 # Photos-Classification
+Background:
+Even though many scene detection AIs are able to detect the outdoor scene accurately, those AIs fail to detect indoor scenes. The key challenge of classifying indoor scenes is that the algorithm needs to be able to use partial scene features (ex. objects) to accurately identify the scene while general scene detection algorithms focus on using global spatial properties.
+
+Potential Implementation:
+If a user intends to search for an image of an indoor scene (Ex. coffee shops) on the internet, a normal approach will be comparing the image with millions of images in the dataset and find the most similar ones and then feed the user the results. While all the indoor scene images in the database can be pre-classified into different categories of scenes (Ex. Libraries, restaurants, etc.), the search engine will then be able to firstly detect the scene of the user-uploaded image, and then compare the image with all images that belong to the detected scene rather than all images in the database. If the scene of the uploaded image is accurately categorized, it would save enormous computational resources, reduce search time, and increase the accuracy of the result.

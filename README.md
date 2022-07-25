@@ -1,1 +1,1 @@
-# -Photos-Classification
+# Photos-Classification
